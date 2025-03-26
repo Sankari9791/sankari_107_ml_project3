@@ -1,0 +1,43 @@
+Dmart sales customer segmentation project on machine Learning:
+
+1. In this project, I tried to do the customer segmentation group based on their purchasing products and their quantities by the category. of the product. Moreover, how much money do they spend on which kind of products? We need to know the customer's behaviour, purchases, and others can analyze all the perspectives from this data set.
+
+2. Workflow of this project:
+Dmartsales dataset---->Data Preprocessing------>Data Analysis-----> find the correct cluster(k) by (wcss-within cluster sum of squares)----->Train the kmeans cluster model---->visualize and analyze the clusters and relationship between all the feature values.
+
+
+3. Load the dataset.
+
+4. Data preprocessing.
+4.1 print the first 5 rows
+4.2 check the shape
+4.3 check the missing values
+4.4 slicing product category, unit price, quantity of the products, and total price of those quantities.
+
+5. Standardize the x-data.
+
+6. Find the correct cluster by using wcss:
+6.1 wcss means within cluster sum of squares. This is a method to find the correct cluster k.
+6.2 check the length of wcss
+6.3 Visualize the elbow graph to see the clusters visually and can easily choose the cluster point.
+
+
+7. Trained the k-means clustering algorithm
+7.1 fit the algorithm
+7.2 print all the cluster points for each data point
+
+
+8. Visualization part:
+8.1 Analyze the product category and their unit price, quantity, and total price of the products by scatter plot graph
+8.2 Analyse all the features in a single plot by pairplot graph.
+
+Google slide link:(presentation link)
+https://docs.google.com/presentation/d/17_Rj88_ISZypfpowzKLDRYBlkxkkqwWFDp-4nPO6H1c/edit?usp=sharing
+
+
+dataset link: https://drive.google.com/file/d/1jsht6O8nFlVv1vbHzPIyIPKrBEC34Nyh/view?usp=sharing
+
+
+
+
+
